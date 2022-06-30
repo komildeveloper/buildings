@@ -88,10 +88,10 @@ INSERT INTO rooms(room_number, company_id, complex_id, complex_address_id) VALUE
 INSERT INTO rooms(room_number, company_id, complex_id, complex_address_id) VALUES(6, '4b97c21a-b103-498f-9b64-af09cdf06461', 'ba038f2c-3710-4cd1-8831-42e8c6ef303a', '71031eba-a7fb-4e3a-bf09-b8033b396237');
 INSERT INTO rooms(room_number, company_id, complex_id, complex_address_id) VALUES(8, '4b97c21a-b103-498f-9b64-af09cdf06461', 'ba038f2c-3710-4cd1-8831-42e8c6ef303a', '71031eba-a7fb-4e3a-bf09-b8033b396237');
 
-INSERT INTO rooms(room_number, company_id, complex_id, complex_address_id) VALUES(2, 'f7c82436-bb41-4744-997d-5f21bb4e4a5c', 'a7783c4c-33f8-4ec0-8ba5-39f33879101d'. 'a9835a58-4637-43bf-a8ab-a0db3cff517a');
-INSERT INTO rooms(room_number, company_id, complex_id, complex_address_id) VALUES(4, 'f7c82436-bb41-4744-997d-5f21bb4e4a5c', 'a7783c4c-33f8-4ec0-8ba5-39f33879101d'. 'a9835a58-4637-43bf-a8ab-a0db3cff517a');
-INSERT INTO rooms(room_number, company_id, complex_id, complex_address_id) VALUES(6, 'f7c82436-bb41-4744-997d-5f21bb4e4a5c', 'a7783c4c-33f8-4ec0-8ba5-39f33879101d'. 'a9835a58-4637-43bf-a8ab-a0db3cff517a');
-INSERT INTO rooms(room_number, company_id, complex_id, complex_address_id) VALUES(8, 'f7c82436-bb41-4744-997d-5f21bb4e4a5c', 'a7783c4c-33f8-4ec0-8ba5-39f33879101d'. 'a9835a58-4637-43bf-a8ab-a0db3cff517a');
+INSERT INTO rooms(room_number, company_id, complex_id, complex_address_id) VALUES(2, 'f7c82436-bb41-4744-997d-5f21bb4e4a5c', 'a7783c4c-33f8-4ec0-8ba5-39f33879101d', 'a9835a58-4637-43bf-a8ab-a0db3cff517a');
+INSERT INTO rooms(room_number, company_id, complex_id, complex_address_id) VALUES(4, 'f7c82436-bb41-4744-997d-5f21bb4e4a5c', 'a7783c4c-33f8-4ec0-8ba5-39f33879101d', 'a9835a58-4637-43bf-a8ab-a0db3cff517a');
+INSERT INTO rooms(room_number, company_id, complex_id, complex_address_id) VALUES(6, 'f7c82436-bb41-4744-997d-5f21bb4e4a5c', 'a7783c4c-33f8-4ec0-8ba5-39f33879101d', 'a9835a58-4637-43bf-a8ab-a0db3cff517a');
+INSERT INTO rooms(room_number, company_id, complex_id, complex_address_id) VALUES(8, 'f7c82436-bb41-4744-997d-5f21bb4e4a5c', 'a7783c4c-33f8-4ec0-8ba5-39f33879101d', 'a9835a58-4637-43bf-a8ab-a0db3cff517a');
 
 -- INSERT MORTAGE
 INSERT INTO mortage(mortage_year) VALUES(10);
