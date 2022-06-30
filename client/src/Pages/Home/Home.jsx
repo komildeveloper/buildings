@@ -48,13 +48,13 @@ function Home() {
 				<div className='grid grid-cols-4 gap-4'>
 					<div className=''>
 						<label
-							htmlFor='small'
+							htmlFor='company'
 							className='block mb-2 text-sm font-medium text-gray-900 dark:text-gray-900'
 						>
 							Company
 						</label>
 						<select
-							id='small'
+							id='company'
 							className='block p-2 mb-6 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'
 						>
 							<option selected hidden>
@@ -73,13 +73,13 @@ function Home() {
 
 					<div className=''>
 						<label
-							htmlFor='small'
+							htmlFor='complex'
 							className='block mb-2 text-sm font-medium text-gray-900 dark:text-gray-900'
 						>
 							Complex
 						</label>
 						<select
-							id='small'
+							id='complex'
 							className='block p-2 mb-6 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'
 						>
 							<option selected hidden>
@@ -98,13 +98,13 @@ function Home() {
 
 					<div className=''>
 						<label
-							htmlFor='small'
+							htmlFor='rooms'
 							className='block mb-2 text-sm font-medium text-gray-900 dark:text-gray-900'
 						>
 							Rooms
 						</label>
 						<select
-							id='small'
+							id='rooms'
 							className='block p-2 mb-6 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'
 						>
 							<option selected hidden>
@@ -123,23 +123,26 @@ function Home() {
 
 					<div className=''>
 						<label
-							htmlFor='small'
+							htmlFor='mortage'
 							className='block mb-2 text-sm font-medium text-gray-900 dark:text-gray-900'
 						>
 							Mortage Duration
 						</label>
 						<select
-							id='small'
+							id='mortage'
 							className='block p-2 mb-6 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'
 						>
-							<option selected hidden>Mortage</option>
-              {
-                mortage && mortage.map((e, i) => {
-                 return (
-							<option key={i}defaultValue={e.mortage_year}>{e.mortage_year}</option>
-                 )
-              })
-              }
+							<option selected hidden>
+								Mortage
+							</option>
+							{mortage &&
+								mortage.map((e, i) => {
+									return (
+										<option key={i} defaultValue={e.mortage_year}>
+											{e.mortage_year}
+										</option>
+									)
+								})}
 						</select>
 					</div>
 				</div>
