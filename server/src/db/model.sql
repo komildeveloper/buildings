@@ -68,30 +68,30 @@ INSERT INTO company(company_name, company_logo) VALUES('Tashkent City', 'https:/
 INSERT INTO company(company_name, company_logo) VALUES('Akay City', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkefBYLdVdGrKJhxI_h6i7K-ZV3aomwTlN0A&usqp=CAU');
 
 -- INSERT COMPLEX
-INSERT INTO complex(complex_name, company_id) VALUES('Nest One', '985df002-f47f-4034-9345-b68791f6138e');
-INSERT INTO complex(complex_name, company_id) VALUES('Yakkasaroy', 'f7c82436-bb41-4744-997d-5f21bb4e4a5c');
-INSERT INTO complex(complex_name, company_id) VALUES('Chilonzor', '4b97c21a-b103-498f-9b64-af09cdf06461');
+INSERT INTO complex(complex_name, company_id) VALUES('Nest One', 'd0271cf2-c217-4661-b6e4-cd15b4f6f2be');
+INSERT INTO complex(complex_name, company_id) VALUES('Yakkasaroy', '7a6ad318-a07b-442c-8a53-f2bb344e4fa7');
+INSERT INTO complex(complex_name, company_id) VALUES('Chilonzor', 'f5d7ff68-7c63-46e8-9f36-f5d05d1dfa9b');
 
 -- INSERT ADDRESS
-INSERT INTO complex_address(complex_address_name, company_id, complex_id) VALUES('Farobiy', '985df002-f47f-4034-9345-b68791f6138e', '3905f5f7-7f98-4e1a-9a9d-6cd091198ac3');
-INSERT INTO complex_address(complex_address_name, company_id, complex_id) VALUES('Farovon', '4b97c21a-b103-498f-9b64-af09cdf06461', 'ba038f2c-3710-4cd1-8831-42e8c6ef303a');
-INSERT INTO complex_address(complex_address_name, company_id, complex_id) VALUES('Shota Rustaveli', 'f7c82436-bb41-4744-997d-5f21bb4e4a5c', 'a7783c4c-33f8-4ec0-8ba5-39f33879101d');
+INSERT INTO complex_address(complex_address_name, company_id, complex_id) VALUES('Farobiy', 'd0271cf2-c217-4661-b6e4-cd15b4f6f2be', 'e703fd2a-d5e7-44fe-8eb4-5e4079adafc3');
+INSERT INTO complex_address(complex_address_name, company_id, complex_id) VALUES('Farovon', '7a6ad318-a07b-442c-8a53-f2bb344e4fa7', '66a8d220-96d9-4462-92b5-6b6e113d4bbc');
+INSERT INTO complex_address(complex_address_name, company_id, complex_id) VALUES('Shota Rustaveli', 'f5d7ff68-7c63-46e8-9f36-f5d05d1dfa9b', 'e1c8a996-7aca-4d07-8f36-ce006f3b8469');
 
 -- INSERT ROOMS
-INSERT INTO rooms(room_number, company_id, complex_id, complex_address_id) VALUES(2, '985df002-f47f-4034-9345-b68791f6138e', '3905f5f7-7f98-4e1a-9a9d-6cd091198ac3', 'bc09ba12-77ac-4125-b5bb-0e878f802514');
-INSERT INTO rooms(room_number, company_id, complex_id, complex_address_id) VALUES(4, '985df002-f47f-4034-9345-b68791f6138e', '3905f5f7-7f98-4e1a-9a9d-6cd091198ac3', 'bc09ba12-77ac-4125-b5bb-0e878f802514');
-INSERT INTO rooms(room_number, company_id, complex_id, complex_address_id) VALUES(6, '985df002-f47f-4034-9345-b68791f6138e', '3905f5f7-7f98-4e1a-9a9d-6cd091198ac3', 'bc09ba12-77ac-4125-b5bb-0e878f802514');
-INSERT INTO rooms(room_number, company_id, complex_id, complex_address_id) VALUES(8, '985df002-f47f-4034-9345-b68791f6138e', '3905f5f7-7f98-4e1a-9a9d-6cd091198ac3', 'bc09ba12-77ac-4125-b5bb-0e878f802514');
+INSERT INTO rooms(room_number, company_id, complex_id, complex_address_id) VALUES(2, 'd0271cf2-c217-4661-b6e4-cd15b4f6f2be', 'e703fd2a-d5e7-44fe-8eb4-5e4079adafc3', '62552af4-2df6-4262-88df-cecbed021ae2');
+INSERT INTO rooms(room_number, company_id, complex_id, complex_address_id) VALUES(4, 'd0271cf2-c217-4661-b6e4-cd15b4f6f2be', 'e703fd2a-d5e7-44fe-8eb4-5e4079adafc3', '62552af4-2df6-4262-88df-cecbed021ae2');
+INSERT INTO rooms(room_number, company_id, complex_id, complex_address_id) VALUES(6, 'd0271cf2-c217-4661-b6e4-cd15b4f6f2be', 'e703fd2a-d5e7-44fe-8eb4-5e4079adafc3', '62552af4-2df6-4262-88df-cecbed021ae2');
+INSERT INTO rooms(room_number, company_id, complex_id, complex_address_id) VALUES(8, 'd0271cf2-c217-4661-b6e4-cd15b4f6f2be', 'e703fd2a-d5e7-44fe-8eb4-5e4079adafc3', '62552af4-2df6-4262-88df-cecbed021ae2');
 
-INSERT INTO rooms(room_number, company_id, complex_id, complex_address_id) VALUES(2, '4b97c21a-b103-498f-9b64-af09cdf06461', 'ba038f2c-3710-4cd1-8831-42e8c6ef303a', '71031eba-a7fb-4e3a-bf09-b8033b396237');
-INSERT INTO rooms(room_number, company_id, complex_id, complex_address_id) VALUES(4, '4b97c21a-b103-498f-9b64-af09cdf06461', 'ba038f2c-3710-4cd1-8831-42e8c6ef303a', '71031eba-a7fb-4e3a-bf09-b8033b396237');
-INSERT INTO rooms(room_number, company_id, complex_id, complex_address_id) VALUES(6, '4b97c21a-b103-498f-9b64-af09cdf06461', 'ba038f2c-3710-4cd1-8831-42e8c6ef303a', '71031eba-a7fb-4e3a-bf09-b8033b396237');
-INSERT INTO rooms(room_number, company_id, complex_id, complex_address_id) VALUES(8, '4b97c21a-b103-498f-9b64-af09cdf06461', 'ba038f2c-3710-4cd1-8831-42e8c6ef303a', '71031eba-a7fb-4e3a-bf09-b8033b396237');
+INSERT INTO rooms(room_number, company_id, complex_id, complex_address_id) VALUES(2, '7a6ad318-a07b-442c-8a53-f2bb344e4fa7', '66a8d220-96d9-4462-92b5-6b6e113d4bbc', 'e399e9e7-7bd3-42cc-af7d-b653c83cb767');
+INSERT INTO rooms(room_number, company_id, complex_id, complex_address_id) VALUES(4, '7a6ad318-a07b-442c-8a53-f2bb344e4fa7', '66a8d220-96d9-4462-92b5-6b6e113d4bbc', 'e399e9e7-7bd3-42cc-af7d-b653c83cb767');
+INSERT INTO rooms(room_number, company_id, complex_id, complex_address_id) VALUES(6, '7a6ad318-a07b-442c-8a53-f2bb344e4fa7', '66a8d220-96d9-4462-92b5-6b6e113d4bbc', 'e399e9e7-7bd3-42cc-af7d-b653c83cb767');
+INSERT INTO rooms(room_number, company_id, complex_id, complex_address_id) VALUES(8, '7a6ad318-a07b-442c-8a53-f2bb344e4fa7', '66a8d220-96d9-4462-92b5-6b6e113d4bbc', 'e399e9e7-7bd3-42cc-af7d-b653c83cb767');
 
-INSERT INTO rooms(room_number, company_id, complex_id, complex_address_id) VALUES(2, 'f7c82436-bb41-4744-997d-5f21bb4e4a5c', 'a7783c4c-33f8-4ec0-8ba5-39f33879101d', 'a9835a58-4637-43bf-a8ab-a0db3cff517a');
-INSERT INTO rooms(room_number, company_id, complex_id, complex_address_id) VALUES(4, 'f7c82436-bb41-4744-997d-5f21bb4e4a5c', 'a7783c4c-33f8-4ec0-8ba5-39f33879101d', 'a9835a58-4637-43bf-a8ab-a0db3cff517a');
-INSERT INTO rooms(room_number, company_id, complex_id, complex_address_id) VALUES(6, 'f7c82436-bb41-4744-997d-5f21bb4e4a5c', 'a7783c4c-33f8-4ec0-8ba5-39f33879101d', 'a9835a58-4637-43bf-a8ab-a0db3cff517a');
-INSERT INTO rooms(room_number, company_id, complex_id, complex_address_id) VALUES(8, 'f7c82436-bb41-4744-997d-5f21bb4e4a5c', 'a7783c4c-33f8-4ec0-8ba5-39f33879101d', 'a9835a58-4637-43bf-a8ab-a0db3cff517a');
+INSERT INTO rooms(room_number, company_id, complex_id, complex_address_id) VALUES(2, 'f5d7ff68-7c63-46e8-9f36-f5d05d1dfa9b', 'e1c8a996-7aca-4d07-8f36-ce006f3b8469', 'fd4f9a83-4cec-41c1-b118-3f927caeee3e');
+INSERT INTO rooms(room_number, company_id, complex_id, complex_address_id) VALUES(4, 'f5d7ff68-7c63-46e8-9f36-f5d05d1dfa9b', 'e1c8a996-7aca-4d07-8f36-ce006f3b8469', 'fd4f9a83-4cec-41c1-b118-3f927caeee3e');
+INSERT INTO rooms(room_number, company_id, complex_id, complex_address_id) VALUES(6, 'f5d7ff68-7c63-46e8-9f36-f5d05d1dfa9b', 'e1c8a996-7aca-4d07-8f36-ce006f3b8469', 'fd4f9a83-4cec-41c1-b118-3f927caeee3e');
+INSERT INTO rooms(room_number, company_id, complex_id, complex_address_id) VALUES(8, 'f5d7ff68-7c63-46e8-9f36-f5d05d1dfa9b', 'e1c8a996-7aca-4d07-8f36-ce006f3b8469', 'fd4f9a83-4cec-41c1-b118-3f927caeee3e');
 
 -- INSERT MORTAGE
 INSERT INTO mortage(mortage_year) VALUES(10);

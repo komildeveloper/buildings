@@ -4,8 +4,8 @@ const Company = `
   SELECT * FROM company
 `
 
-const getBooks = () => fetchData(Company)
+const getCompany = () => fetchData(Company)
 
 module.exports = {
-	getBooks
+	getCompany
 }
