@@ -5,6 +5,13 @@ CREATE DATABASE buildings;
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 
 -- CREATE TABLES
+CREATE TABLE users(
+  user_id UUID PRIMARY KEY DEFAULT UUID_GENERATE_V4(),
+  user_name VARCHAR(255) NOT NULL,
+  user_email VARCHAR(255) NOT NULL,
+  user_password VARCHAR(255) NOT NULL
+);
+
 CREATE TABLE company(
   company_id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
   company_logo TEXT NOT NULL,
@@ -61,6 +68,9 @@ CREATE TABLE banks(
   bank_price NUMERIC NOT NULL,
   bank_payment NUMERIC NOT NULL
 );
+
+-- INSERT USERS
+INSERT INTO users(user_name, user_email, user_password) VALUES('komil', 'komil@test@gmail.com', 'komil123');
 
 -- INSERT COMPANY
 INSERT INTO company(company_name, company_logo) VALUES('Murad Buildings', 'https://www.mbc.uz/includes/images/new_layout/logo.svg');
